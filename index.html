@@ -8,6 +8,11 @@
     box-sizing: border-box;
   }
 
+  .img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+ }  
   .column {
     float: left;
     width: 33.33%;
@@ -15,9 +20,6 @@
   }
 
   .row::after {
-    float: center;
-    min-height: 50%;
-    max-height: 100%;
     content: "";
     clear: both;
     display: table;
@@ -35,10 +37,10 @@
   <p style="margin-left:160px"><span style="color: #5647ae;"><span style="font-family:Georgia,serif"><span style="font-size:22px">Pakaa</span></span></p>  
   <div class="row">
     <div class="column">
-      <img src="Pakaa.jpg" alt="Pakaa" style="width:100%">
+      <img src="Pakaa.jpg" alt="Pakaa">
     </div>
     <div class="column">
-      <img src="pakaa_stencil.jpg" alt="stencil" style="width:100%">
+      <img src="pakaa_stencil.jpg" alt="stencil">
     </div>
   </div>
   <p style="margin-left:160px"><span style="color: #5647ae;"><span style="font-family:Georgia,serif">This is an RC flying wing I made from scratch. It used a KPM2 wingfoil. It can be contructed with two pieces of DollarTree $1 foamboard. The stencil from my cad design is included if you want to cut it out yourself. The reflective tape is to keep it from overheating in the sun haha. </span></p>
