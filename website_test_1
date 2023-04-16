@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Erics_Website_1</title>
+<meta name="generator" content="Bluefish 2.2.12" >
+<meta name="author" content="chanman" >
+<meta name="date" content="2023-04-15T21:25:26-0400" >
+<meta name="description" content="This is my first test website">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+
+<style type="text/css">
+
+h1 {
+	color: #3f939a;
+	text-align: center;
+	font-size: 90px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+h2 {
+	color: #3f939a;
+	text-align: center;
+	font-size: 30px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+h3 {
+	color: #417a9a;
+	font-size: 30px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+	text-decoration: underline;
+}
+p {
+	color: #417a9a;
+	font-size: 25px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+
+body {
+	background-color: #35516d;
+	outline-style: hidden;
+	outline-color: #1b4e56;
+}
+
+article {
+	margin-left: 50px;
+	border-bottom: 6px double #310c69;
+	border-left: 3px double #310c69;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Eric's Project Website</h1>
+<h2>This website is intended to show off some of the projects that I have done. It is a work in progress and will likely chage and be updated over time.</h2>
+
+<article>
+<h3>Circ du Heart</h3>
+<p>
+This is a cute Valentine's Day gift I made for my significant other. It uses a 555 timer in astable mode to make a bunch of LED's blink. 
+</p>
+
+<figure><img src="circback.jpg" alt="" width="400"/>
+<img src="circuheart.gif" alt="" width="400"/></figure>
+<figure><img src="circuit.png" width="800" height="565" alt=""></figure>
+</article>
+
+</body>
+
+</html>
