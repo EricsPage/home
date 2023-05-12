@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Erics_Website_1</title>
+<meta name="generator" content="Bluefish 2.2.12" >
+<meta name="author" content="chanman" >
+<meta name="date" content="2023-05-12T13:18:23-0400" >
+<meta name="description" content="This is my first test website">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+
+<style type="text/css">
+
+h1 {
+	color: #3f939a;
+	text-align: center;
+	font-size: 90px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+h2 {
+	color: #3f939a;
+	text-align: center;
+	font-size: 30px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+h3 {
+	color: #417a9a;
+	font-size: 30px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+	text-decoration: underline;
+}
+p {
+	color: #417a9a;
+	font-size: 25px;
+	font-family: roman, 'times new roman', times, serif, verdana;
+}
+
+body {
+	background-color: #35516d;
+	outline-style: hidden;
+	outline-color: #1b4e56;
+}
+
+article {
+	margin-left: 90px;
+	border-bottom: 6px double #310c69;
+	border-left: 3px double #310c69;
+	padding-left: 50px;
+}
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Eric's Project Website</h1>
+<h2>This website is intended to show off some of the projects that I have done. It is a work in progress and will likely chage and be updated over time.</h2>
+
+<article>
+<h3>Circ du Heart</h3>
+<p>
+This is a cute Valentine's Day gift I made for my significant other. It uses a 555 timer in astable mode to make a bunch of LED's blink.
+It uses large pull-down resistors to reduce unnecessary power-loss.
+Only 3 LED's are capable of being powered in series, so we need 5 branches to light up all 14.
+</p>
+
+<figure>
+<a href="https://imgur.com/T4Z2Sfl"><img src="https://i.imgur.com/T4Z2Sfl.jpg" title="source: imgur.com" width="400"/></a>
+<a href="https://imgur.com/oqLEAch"><img src="https://imgur.com/oqLEAch.gif" title="source: imgur.com" width="400"/></a>
+</figure>
+
+<figure>
+<a href="https://imgur.com/EIFfHxm"><img src="https://i.imgur.com/EIFfHxm.png" title="source: imgur.com" width="800" /></a>
+</figure>
+</article>
+
+
+<article>
+<h3>The Analog Tea Tester</h3>
+<p>
+I can't stand to drink things that are too hot! This is a problem becuase I really like tea.
+Often in my zealous moment of thirst I end up accidentially getting a huge mouthful of burning tea.
+I hate buring myself, so to fix the problem I made a little temperature circuit. It will light up when the tea
+is below some temperature (set by the potentiometer). It is powered by some vape battery I found on the ground after a 
+noisy party my neighbors had. The components are comepletely passive and not very resource intensive. I bet this
+could be implmented into a silicone tea infuser. Idk maybe I'll look into patenting it later.
+</p>
+<figure>
+<img src="Tea_Too_Hot.png" alt="Circuit of my Tea Too Hot device" width="400"/>
+</figure>
+</article>
+
+<article>
+<h3>Portal Cap</h3>
+<p>
+I put an infinity mirror on my graduation cap. What I did was place 8 LED's between a mirror and a one-way mirror.
+When light hits the one-way mirror, half gets reflected back and half goes through. The light that gets reflected back 
+will reflect off the mirror on the bottom, and come back up. This makes some of the light travel a farther distance, 
+creating the illusion of seemingly no bottom.
+I powered the cap with two 3.3v LiPo's I found in some littered vape cartridges.
+</p>
+
+<figure>
+<a href="https://imgur.com/qbULZwd"><img src="https://imgur.com/qbULZwd.png" title="source: imgur.com" width="800"/></a>
+</figure>
+
+<figure>
+<a href="https://imgur.com/7YREdKp"><img src="https://imgur.com/7YREdKp.jpg" title="source: imgur.com" height="650"/></a>
+<a href="https://imgur.com/RnLfkoH"><img src="https://imgur.com/RnLfkoH.jpg" title="source: imgur.com" height="650" /></a>
+</figure>
+</article>
+
+</body>
+
+</html>
