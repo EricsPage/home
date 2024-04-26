@@ -90,7 +90,10 @@ I made a poster of my results and presented it at the APS March Meeting 2024.
 <p>
 One of the grad students was using the one lab computer with LabVIEW on it. I needed the computer to run my own test, but his experiement was going to take the rest of the day.
 Instead of just waiting a built and coded my own LabVIEW knock-off to collect, record, and graph my own data. I used an Arduino Mega and the matplot python package.
-Here is a gif of it working and a screenshot of the live graph
+The Arduino reads the voltage drop over a resistor bridge, converts that to resistance, and converts the resistance to temerature using the Stein-Hart Equation. This data is written to the Arduino's serial port.
+The programs reads the usb serial port and plots the resistance (red) and temperture (blue).
+In the end it actually ended up being more useful because I could take my labtop and Arduino anywhere.
+Here is a gif of a thermistor being removed from a 60C cup of water.
 </p>
 
 <figure>
